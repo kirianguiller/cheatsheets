@@ -74,3 +74,15 @@ export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 ```
 
 can be found here (11.2 was modified with 10.2): https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#post-installation-actions
+
+
+## python virtual environment setup
+### create venv
+```
+python3.8 -m venv my-venv-name
+```
+
+### install pytorch
+```
+pip install torch
+```
