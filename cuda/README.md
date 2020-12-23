@@ -86,3 +86,11 @@ python3.8 -m venv my-venv-name
 ```
 pip install torch
 ```
+
+## check if everything is correct
+in a python environment, import torch and check availables gpus
+```
+import torch
+torch.cuda.get_device_name(0)
+```
+
